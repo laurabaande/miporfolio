@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+h2, h3 {
+  color: #BE185D;
+  margin-top: 0;
+}
+
+h4.overline {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #F97316;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+
+.ruta {
+  margin: 15px;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.ruta a, .ruta a:visited {
+  color: #BE185D;
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.bloque {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bloque img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 30px 15px;
+}
+
+.pagination a {
+  color: #BE185D;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  transition: background-color .3s;
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background-color: #F97316;
+  color: white;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+footer img {
+  margin: 0 5px;
+  width: 24px;
+  height: 24px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+}
+
